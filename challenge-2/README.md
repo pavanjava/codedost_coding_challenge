@@ -1,5 +1,5 @@
 # Problem
-you are given with the below data and you need to create 2 dropdowns in which the first specifies a country name upon selecting a value from countries dropdown we have to populate the second dropdown with the countries of that selected country.
+you are given with the below data and you need to create 2 dropdowns in which the first specifies a country name upon selecting a value from countries dropdown we have to populate the second dropdown with the cities of that selected country.
 
 Data:
  const countries = [
