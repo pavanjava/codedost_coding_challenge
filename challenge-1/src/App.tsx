@@ -15,7 +15,8 @@ const App = () => {
   }
 
   const handleChckboxClick = (value: boolean, index: number) => {
-    setCheckboxData(checkboxData[index] = value);
+    checkboxData[index] = value
+    setCheckboxData(checkboxData);
   }
 
   const createList = (list: string[]): any => {
