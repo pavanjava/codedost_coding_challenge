@@ -10,7 +10,7 @@ export const TextArea = () => {
 
   const handleTextChange = (event: any) => {
     setText(event.target.value);
-    setChars(text.length);
+    setChars(text.length + 1);
     setWords(text.split(" ").length);
     setSentences(text.split(".").length);
     setParas(text.split("\n").length);
